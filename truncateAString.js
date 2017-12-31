@@ -1,4 +1,4 @@
-unction truncateString(str, num) {
+function truncateString(str, num) {
   // Clear out that junk in your trunk
   
     var result = (str.length <= 3 || num <= 3) ? str.slice(0 , num) + "..." :
